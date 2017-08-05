@@ -1,8 +1,8 @@
 {
   "name": "ion-insight-api",
   "description": "A ION blockchain REST and web socket API service for ioncore Node.",
-  "version": "0.5.0",
-  "repository": "git://github.com/rdewilde/insight-api.git",
+  "version": "0.5.1",
+  "repository": "git://github.com/rdewilde/ion-insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/rdewilde/insight-api/issues"
+    "url": "https://github.com/rdewilde/ion-insight-api/issues"
   },
-  "homepage": "https://github.com/rdewilde/insight-api",
+  "homepage": "https://github.com/rdewilde/ion-insight-api",
   "license": "MIT",
   "keywords": [
     "insight",

@@ -1,5 +1,5 @@
 {
-  "name": "insight-api",
+  "name": "ion-insight-api",
   "description": "A ION blockchain REST and web socket API service for ioncore Node.",
   "version": "0.5.0",
   "repository": "git://github.com/rdewilde/insight-api.git",
@@ -66,7 +66,7 @@
   "ioncoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "ioncore-lib": "^0.13.7",
+    "ioncore-lib": "^0.14.0",
     "ioncore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",

@@ -1,8 +1,8 @@
 {
   "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "description": "A ION blockchain REST and web socket API service for ioncore Node.",
+  "version": "0.5.0",
+  "repository": "git://github.com/rdewilde/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -35,12 +35,16 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Robert de Wilde",
+      "email": "email@robertdewilde.nl"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/rdewilde/insight-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/rdewilde/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -49,7 +53,8 @@
     "bitcoin api",
     "blockchain api",
     "json",
-    "bitcore"
+    "ioncore",
+    "ion"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -58,11 +63,11 @@
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
   "main": "lib",
-  "bitcoreNode": "lib",
+  "ioncoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "^0.13.7",
-    "bitcore-message": "^1.0.1",
+    "ioncore-lib": "^0.13.7",
+    "ioncore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

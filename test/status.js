@@ -128,7 +128,7 @@ describe('Status', function() {
         syncPercentage: 100,
         height: 500000,
         error: null,
-        type: 'bitcore node'
+        type: 'ioncore node'
       };
 
       var status = new StatusController(node);

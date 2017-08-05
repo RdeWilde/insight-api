@@ -3,7 +3,7 @@ var sinon = require('sinon');
 var should = require('should');
 var AddressController = require('../lib/addresses');
 var _ = require('lodash');
-var bitcore = require('bitcore-lib');
+var ioncore = require('ioncore-lib');
 
 var txinfos = {
   totalCount: 2,
